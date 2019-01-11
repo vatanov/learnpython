@@ -23,3 +23,5 @@ weather['date'] = '31.12.2018'
 my_list.append(weather)
 
 print(my_list)
+
+print('Hello word!')
