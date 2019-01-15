@@ -5,14 +5,12 @@ def get_answer(question):
 
 
 def main():
-    flag = True
-
-    while flag:
+    while True:
         question = input ('Enter question: ')
         if question.lower() != 'exit':
             print(get_answer(question))
         else:
-            flag = False
+            break
 
 
 if __name__ == '__main__':
