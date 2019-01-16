@@ -3,6 +3,7 @@ def ask_user():
     while ask != 'Fine':
         ask = input('How are you?').capitalize()
 
+
 def main():
     ask_user()
 
